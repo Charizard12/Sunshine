@@ -5,14 +5,14 @@ package com.example.android.sunshine.app;
  */
 
 public class Forecast {
-    private int mMaxTemp;
-    private int mMinTemp;
-    private int mDayTemp;
-    private int mNigTemp;
+    private double mMaxTemp;
+    private double mMinTemp;
+    private double mDayTemp;
+    private double mNigTemp;
     private String mDescription;
     private long mTimeMS;
 
-    public Forecast(int max, int min, int day, int night, String description, long timeMS){
+    public Forecast(double max, double min, double day, double night, String description, long timeMS){
         mMaxTemp = max;
         mMinTemp = min;
         mDayTemp = day;
@@ -21,13 +21,13 @@ public class Forecast {
         mTimeMS = timeMS;
     }
 
-    public int getMaxTemp(){ return mMaxTemp; }
+    public double getMaxTemp(){ return mMaxTemp; }
 
-    public int getMinTemp() { return mMinTemp; }
+    public double getMinTemp() { return mMinTemp; }
 
-    public int getDayTemp() { return mDayTemp; }
+    public double getDayTemp() { return mDayTemp; }
 
-    public int getNightTemp() { return mNigTemp; }
+    public double getNightTemp() { return mNigTemp; }
 
     public String getDescription() { return mDescription; }
 

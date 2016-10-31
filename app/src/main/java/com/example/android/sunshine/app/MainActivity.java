@@ -70,13 +70,13 @@ public class MainActivity extends ActionBarActivity {
             long time = 1477504800;
 
             final ArrayList<Forecast> weather = new ArrayList<Forecast>();
-            weather.add(new Forecast(25,18,23,19,"soleado",time));
-            weather.add(new Forecast(35,30,23,19,"muy soleado",1477657560));
-            weather.add(new Forecast(28,20,23,19,"soleado",1477591200));
-            weather.add(new Forecast(19,12,23,19,"lluvioso",1478990700));
-            weather.add(new Forecast(20,15,23,19,"nublado",1477764000));
+            weather.add(new Forecast(25,18.9,23,19,"soleado",time));
+            weather.add(new Forecast(35.9,30,23,19,"muy soleado",1477657560));
+            weather.add(new Forecast(28.9,20,23,19,"soleado",1477591200));
+            weather.add(new Forecast(19,12.5,23,19,"lluvioso",1478990700));
+            weather.add(new Forecast(20,15.7,23,19,"nublado",1477764000));
             weather.add(new Forecast(30,22,23,19,"soleado",1477850400));
-            weather.add(new Forecast(26,20,23,19,"soleado",1477936800));
+            weather.add(new Forecast(26.1,20,23,19,"soleado",1477936800));
 
             ForecastAdapter adapter = new ForecastAdapter(rootView.getContext(), weather);
             forecast_listview.setAdapter(adapter);
