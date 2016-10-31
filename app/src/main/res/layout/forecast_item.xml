@@ -1,0 +1,60 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="8dp"
+    tools:context=".MainActivity$PlaceholderFragment">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/date_textview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="Today, October 1"
+            android:textAppearance="?android:textAppearanceLarge" />
+
+        <TextView
+            android:id="@+id/maxTemp_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="21"
+            android:textAppearance="?android:textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/minTemp_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="8" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="120dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_launcher"
+            android:layout_gravity="center"
+            android:id="@+id/weather_icon" />
+
+        <TextView
+            android:id="@+id/weather_textview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            tools:text="27g Sunny" />
+    </LinearLayout>
+
+</LinearLayout>
+
+
+
